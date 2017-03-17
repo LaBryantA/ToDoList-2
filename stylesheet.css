@@ -40,6 +40,10 @@ h1{
   flex-direction: row;
 }
 
+.flex-alignBot{
+  align-items: flex-end;
+}
+
 .task-input{
   height: 45px;
   width: 590px;
@@ -56,4 +60,15 @@ h1{
   color: white;
   width: 90px;
   height: 51px;
+}
+
+.mainbox{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 680px;
+  height: 600px;
+  border-style: dotted;
+  border-color: red;
+  border-radius: 5px;
 }

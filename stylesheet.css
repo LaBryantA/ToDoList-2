@@ -1,0 +1,59 @@
+html{
+  height: 100%
+}
+
+body{
+  background-color: #323232;
+  height: 100%
+  margin: 0;
+}
+
+h1{
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 72px;
+  color: #8f0000;
+  text-align: center;
+}
+
+.flex-containerMain{
+  display: flex;
+  height: 100%;
+  width: 780px;
+  height: 650px;
+  padding: 20px 10px 20px;
+  margin: auto;
+  background-color: #ffd756;
+}
+
+.flex-centerAll{
+  justify-content: center;
+  align-items: center;
+}
+.flex-centerHoriz{
+  justify-content: center;
+}
+.flex-vertFlow{
+  flex-direction: column;
+}
+
+.flex-horizFlow{
+  flex-direction: row;
+}
+
+.task-input{
+  height: 45px;
+  width: 590px;
+  padding-left: 20px;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.add-button{
+  background-color: #ff0000;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: white;
+  width: 90px;
+  height: 51px;
+}

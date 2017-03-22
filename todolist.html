@@ -12,13 +12,11 @@
         <input class="task-input" id="task" placeholder="Enter task to be done here."></input>
         <button class="add-button" id="addButton">Add</button>
       </div>
-      <div class="mainbox flex-centerAll" id="taskContainer" style="display:flex;">
+      <div class="mainbox flex-vertFlow" id="taskContainer" style="display:flex;">
 
       </div>
       <div class="flex-horizFlow flex-alignBot flex-centerHoriz" style="display:flex; width:100%">
-        <button class="add-button" id="addButton">Add</button>
-        <button class="add-button" id="addButton">Add</button>
-        <button class="add-button" id="addButton">Add</button>
+        <button class="add-button" id="filterButton" onclick="filterComplete()">Hide Completed</button>
       </div>
     </div>
     <script src="./script.js"></script>
